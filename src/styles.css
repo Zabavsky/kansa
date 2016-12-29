@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+header {
+	flex: 1;
+}
+
+app-root {
+	min-height: 100%;
+	display: block;
+}
