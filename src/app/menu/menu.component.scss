@@ -1,0 +1,18 @@
+ul {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 20px;
+
+  a {
+    font-family: Times;
+    font-size: 24px;
+    color: #ccc;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
