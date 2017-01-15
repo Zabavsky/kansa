@@ -14,9 +14,10 @@ import {ClothesComponent} from './clothes/clothes.component';
 import {SalesComponent} from './sales/sales.component';
 import {ContactsComponent} from './contacts/contacts.component';
 import {BagsComponent} from './bags/bags.component';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
-    {path: 'home', component: AppComponent},
+    {path: 'home', component: HomeComponent},
     {path: 'clothes', component: ClothesComponent},
     {path: 'sales', component: SalesComponent},
     {path: 'bags', component: BagsComponent},
@@ -34,7 +35,8 @@ const appRoutes: Routes = [
         ClothesComponent,
         SalesComponent,
         ContactsComponent,
-        BagsComponent
+        BagsComponent,
+        HomeComponent
     ],
     imports: [
         BrowserModule,
