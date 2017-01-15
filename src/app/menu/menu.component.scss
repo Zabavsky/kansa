@@ -16,3 +16,9 @@ li {
     text-decoration: none;
   }
 }
+
+:host {
+  display: inline-block;
+  height: 90px;
+  vertical-align: top;
+}

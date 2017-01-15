@@ -1,4 +1,23 @@
 :host {
   display: flex;
   align-items: flex-start;
+
+  header {
+    display: inline-block;
+    height: 90px;
+    vertical-align: top;
+  }
+}
+
+a {
+  height: 90px;
+  width: 240px;
+  display: inline-block;
+}
+
+.k-logo {
+  img {
+    width: 240px;
+    height: 90px;
+  }
 }

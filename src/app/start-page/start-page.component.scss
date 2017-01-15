@@ -1,0 +1,14 @@
+.k-start_page__wrapper {
+  display: flex;
+  flex-flow: row wrap;
+
+  /* Задаём всем элеметам ширину в 100% */
+  &__full {
+    flex: 1 100%;
+  }
+
+  /* Задаём всем элеметам ширину в 50% */
+  &__half {
+    flex: 1 50%;
+  }
+}

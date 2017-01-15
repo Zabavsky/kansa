@@ -14,14 +14,18 @@ import {ClothesComponent} from './clothes/clothes.component';
 import {SalesComponent} from './sales/sales.component';
 import {ContactsComponent} from './contacts/contacts.component';
 import {BagsComponent} from './bags/bags.component';
-import { HomeComponent } from './home/home.component';
+import {HomeComponent} from './home/home.component';
+import {AboutComponent} from './about/about.component';
+import {StartPageComponent} from './start-page/start-page.component';
 
 const appRoutes: Routes = [
+    {path: 'start', component: StartPageComponent},
     {path: 'home', component: HomeComponent},
     {path: 'clothes', component: ClothesComponent},
     {path: 'sales', component: SalesComponent},
     {path: 'bags', component: BagsComponent},
     {path: 'contacts', component: ContactsComponent},
+    {path: 'about', component: AboutComponent},
 ];
 
 @NgModule({
@@ -36,7 +40,9 @@ const appRoutes: Routes = [
         SalesComponent,
         ContactsComponent,
         BagsComponent,
-        HomeComponent
+        HomeComponent,
+        AboutComponent,
+        StartPageComponent
     ],
     imports: [
         BrowserModule,
@@ -47,5 +53,4 @@ const appRoutes: Routes = [
     providers: [],
     bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule {}
